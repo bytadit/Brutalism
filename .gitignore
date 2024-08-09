@@ -42,3 +42,5 @@ public/*
 !public/
 contents/*
 !contents/
+# Ignore everything inside the public/contents/ folder
+public/contents/*
