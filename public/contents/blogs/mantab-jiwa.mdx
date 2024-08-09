@@ -1,0 +1,97 @@
+---
+title: Customer Churn Analysis in Olist Brazilian Ecommerce Dataset
+description: Deteksi churn customer pada eccomerce olist brasil menggunakan random forest er pada eccomerce olist brasil menggunakan random forest
+date: 2024-04-06
+draft: false
+category: Machine Learning
+bgImage: https://static.vecteezy.com/system/resources/previews/012/627/908/non_2x/full-color-backgrounds-blue-purple-yellow-pink-composed-of-geometric-patterns-such-as-circles-squares-rectangles-triangles-nets-and-other-geometric-shapes-vector.jpg
+tags: 
+  - Machine Learning
+  - Apache
+  - SQL
+---
+
+# Markdown syntax guide
+<Image width="500" height="500" src="./car-image-1.jpg"></Image>
+## Headers
+<Callout type="danger">
+Hello im callout
+</Callout>
+# This is a Heading h1
+## This is a Heading h2
+###### This is a Heading h6
+
+## Emphasis
+
+*This text will be italic*  
+_This will also be italic_
+
+**This text will be bold**  
+__This will also be bold__
+
+_You **can** combine them_
+
+The activities I am currently doing is taking an Independent Study program on The Data Scientist Track at the Startup Campus, which was organized by the Ahmad Zaky Foundation under the auspices of the “Kampus Merdeka” of the Ministry of Education and Culture. I am happy to participate in this activity, since I can explore data science in a more structured manner. From this program, I was finally able to meet experienced mentors and study partners, two things that I really need in exploring the world of data science. Apart from this Independent Study program, I am also taking one class on campus on distributed system subject. I chose this subject because I still love coding, and this subject is the right choice. I also need this subject, because it is a prerequisite for the Cloud Computing subject that I want to take in the next semester.
+
+
+Other activities I am currently doing are taking courses for Google Data Analytics Professional Certification at Coursera, courses for Data Analyst Career Track at Datacamp, and The AWS Machine Learning nanodegree program at Udacity. It’s quite tiring indeed, but I’m very happy and excited because I learned a lot of new knowledge from taking many of these courses, and especially because the courses I took were scholarships so I felt more responsible to complete them.
+
+
+I have worked on several projects related to data science and web development, you can see them in the projects section. But now, for data science projects, I’m currently looking for inspiration by finding updated/trending datasets as subject of my analysis, I’m also learning about deep learning since its projects are widely known interesting. For Web Dev projects, I really want to create a website forum to share coding knowledge where everyone can access and contribute for free.
+
+
+For refreshing and relaxation, I usually listen to music (i like slow rock, pop, 80’s-90’s song, etc), watch movies or youtube, or sometimes play guitar. Since most of my daily activities are sitting in front of the screen, to improve blood circulation and avoid obesity, I try to make time for exercice(sports) as much as possible, such as jogging and swimming. In my spare time I also try to take the time to write posts here, and for other platforms such as medium(soon).
+
+## List
+### List 2
+## Blocks of code
+
+```jsx
+"use client";
+import React, { useState } from 'react';
+import clsx from 'clsx';
+import { FaCopy } from "react-icons/fa";
+
+const buttonClasses = 'flex items-center text-xs px-1.5 py-1 font-medium text-white rounded border border-white';
+
+interface CopyButtonProps {
+  text: string;
+  className?: string;
+}
+
+const CopyButton: React.FC<CopyButtonProps> = ({ text, className }) => {
+  const [isCopied, setIsCopied] = useState(false);
+
+  const copy = async () => {
+    await navigator.clipboard.writeText(text);
+    console.log(text);
+    setIsCopied(true);
+
+    setTimeout(() => {
+      setIsCopied(false);
+    }, 2500);
+  };
+
+  return (
+    <button
+      disabled={isCopied}
+      onClick={copy}
+      className={clsx(buttonClasses, className)}
+    >
+      {/* <Icon className="mr-1 h-4 w-4" /> */}
+      <span>{isCopied ? 'Copied!' : 'Copy'}</span>
+    </button>
+  );
+};
+
+export default CopyButton;
+```
+
+```python
+print("Hello, World!")
+```
+```ts {2} title="ajx.js"
+console.log('Not highlighted')
+console.log('Highlighted') // [!code highlight]
+console.log('Not highlighted')
+```

@@ -38,5 +38,7 @@ next-env.d.ts
 # velite files
 .velite
 .env
-public/
-contents/
+public/*
+!public/
+contents/*
+!contents/
