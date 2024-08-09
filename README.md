@@ -1,6 +1,9 @@
 # My Portfolio Webiste Design using NextJS 14 & ShadCN/UI
+![byt_brutal_gif](https://raw.githubusercontent.com/bytadit/Brutalism-NextJS/main/byt-brutal.gif)
+
 This is repository for my portfolio website, built by myself using NextJS 14 & ShadCN/UI <br>
 **Brutalism** in this website refers to the design style I applied, which is brutalism. This style is known for its minimalist and functional appearance. For more information about brutalism in web design, check out this article: [Examples of Brutalism in Web Design](https://designlab.com/blog/examples-brutalism-in-web-design#:~:text=Brutalism%20is%20a%20raw%2C%20minimal,to%20layout%20and%20UI%20design).
+
 
 ## Technologies Used
 
