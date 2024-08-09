@@ -1,0 +1,9 @@
+
+/* Fix for .subheading-anchor */
+.subheading-anchor {
+  text-decoration: none; /* Equivalent to no-underline in Tailwind */
+}
+
+.subheading-anchor:hover {
+  text-decoration: underline; /* Equivalent to hover:underline in Tailwind */
+}
